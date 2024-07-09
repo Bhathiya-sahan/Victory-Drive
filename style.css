@@ -1,0 +1,58 @@
+
+#register{
+    color: #ffffff;
+    transition: 1ms;
+}
+#register:hover{
+    color: #beb9b9;
+    font-size: 17px;
+}
+
+@media screen and (min-width: 1100px) {
+    #intro{
+        font-size: 50px !important;
+    }
+  .text-g{
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 1100px) {
+    #intro{
+        font-size: 40px !important;
+    }
+  .text-g{
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+    #intro{
+        font-size: 30px !important;
+    }
+  .text-g{
+    padding-top: 150px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+    #intro{
+        font-size: 20px !important;
+    }
+  .text-g{
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .cars{
+        margin-left: 150px;
+        margin-top: 10px
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .cars{
+       
+        margin-left: 50px
+  }
+}
